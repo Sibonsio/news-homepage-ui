@@ -1,6 +1,8 @@
 import '../components/Button.css'
 import '../components/Navbar.css'
 
+// The button is reusable
+
 const Button = ({handleClick})=>{
     return(
         <>
