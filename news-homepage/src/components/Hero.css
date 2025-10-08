@@ -163,17 +163,27 @@ hr{
         gap: 30px;
         
      }
+     
 
 
 }
-@media (min-width:464px) and (max-width:792px){
+@media (min-width:280px) and (max-width:792px){
     .title-div{
-        height: 130px;
-        
-
+        height: 60px;
+    
      }
      .button-div{
         height: 150px;
+        gap: 30px;
+     }
+     .title{
+        font-size: clamp(10px,5vw,30px);
+     }
+     .text-container{
+        margin-bottom: 30px;
+     }
+     .description{
+        font-size: clamp(5px,5vw,20px);
      }
 
 }
