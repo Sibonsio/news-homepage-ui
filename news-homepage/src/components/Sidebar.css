@@ -1,23 +1,28 @@
 .sidebar{
-    position: relative;
+    position:fixed;
     justify-self: flex-end;
-    bottom:110px;
+    top:0;
     display: flex;
     justify-content: space-between;
-    height: 500px;
+    height: 1000px;
     background-color:hsl(36, 100%, 99%) ;
-    min-width: 300px;
-    height: 500px;
+    width: 100%;
     border: 1px   ;
     box-shadow: 1px 1px 2px 2px hsl(233, 8%, 79%) ;
+    z-index: 10px;
+    padding-top: 52px;
+   
+    
 }
+
 .side-button{
     width: 30px;
     height: 30px;
     border: 0;
     background-color: hsl(36, 100%, 99%);
-    margin-top: 30px;
-    margin-right: 20px;
+    margin-top: 8px;
+    margin-right: 45px;
+    margin-bottom: 70px;
 }
 .item-bar{
     list-style: none;
@@ -29,12 +34,13 @@
 .side-list{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-self: center;
+    justify-content: center;
+    gap: 50px;
     height: 50%;
 }
 .side-button img{
     width: 20px;
     height: 20px;
     justify-self: center;
+    
 }

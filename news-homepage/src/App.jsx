@@ -13,7 +13,7 @@ const handleClick = ()=>{
   return (
     <>
     <Navbar handleClick={handleClick}/>
-    {isClicked && <Sidebar handleClose={handleClick}/>}
+    {isClicked && <Sidebar  handleClose={handleClick}/>}
     <Hero/>
     </>
   )

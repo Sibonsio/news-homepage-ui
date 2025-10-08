@@ -5,6 +5,7 @@
     
 }
 .hero{
+    overflow: hidden;
     justify-self: center;
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -117,6 +118,22 @@ hr{
     }
     .text-container{
         flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        
+    }
+    .title-div{
+       height: 60px;
+    }
+    .title{
+        height: 70px;
+    }
+    .button-div{
+        align-items: flex-start;
+        height: 120px;
+    }
+    .herobutton,.description{
+        margin-left: 0;
     }
 }
 @media (min-width:1001px) and (max-width:1388px){
@@ -133,6 +150,31 @@ hr{
 .new-title{
     margin-top: 10px;
 }
+
+}
+@media (min-width:792px) and (max-width:1000px){
+    .title-div{
+        height: 80px;
+        
+
+     }
+     .button-div{
+        justify-content: center;
+        gap: 30px;
+        
+     }
+
+
+}
+@media (min-width:464px) and (max-width:792px){
+    .title-div{
+        height: 130px;
+        
+
+     }
+     .button-div{
+        height: 150px;
+     }
 
 }
 
