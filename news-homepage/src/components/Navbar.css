@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
+    padding-top: 80px;
+    width: 80%;
+    
+}
+.item{
+    list-style: none;
+    color: hsl(0, 0%, 62%);
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+.logo{
+    width: 45px;
+    height: 28px;
+}
+
+@media (max-width:1000px){
+    .nav-list{
+        display: none;
+    }
+    
+    
+}

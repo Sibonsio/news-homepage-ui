@@ -1,0 +1,40 @@
+.sidebar{
+    position: relative;
+    justify-self: flex-end;
+    bottom:110px;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    background-color:hsl(36, 100%, 99%) ;
+    min-width: 300px;
+    height: 500px;
+    border: 1px   ;
+    box-shadow: 1px 1px 2px 2px hsl(233, 8%, 79%) ;
+}
+.side-button{
+    width: 30px;
+    height: 30px;
+    border: 0;
+    background-color: hsl(36, 100%, 99%);
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.item-bar{
+    list-style: none;
+    margin-left: 25px;
+    color: hsl(0, 0%, 23%);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.side-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    height: 50%;
+}
+.side-button img{
+    width: 20px;
+    height: 20px;
+    justify-self: center;
+}
