@@ -4,9 +4,9 @@
     top:0;
     display: flex;
     justify-content: space-between;
-    height: 1000px;
+    height: 100vh;
     background-color:hsl(36, 100%, 99%) ;
-    width: 100%;
+    width: 70%;
     border: 1px   ;
     box-shadow: 1px 1px 2px 2px hsl(233, 8%, 79%) ;
     z-index: 10px;
