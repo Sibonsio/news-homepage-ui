@@ -118,6 +118,9 @@ hr{
 .title-div{
     height: 200px;
 }
+.title:hover{
+    color:hsl(5, 85%, 63%) ;
+}
 
 @media (max-width:1000px){
     .hero{
