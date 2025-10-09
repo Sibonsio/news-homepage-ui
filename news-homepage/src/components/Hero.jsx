@@ -15,13 +15,13 @@ const Hero = ()=>{
             </div>
             <div className='news-container'><h2 className='news-title'>New</h2>
             <div className='news-items'>
-            <h3 className='news-item'>Hydrogen VS Electic Cars</h3>
+            <h3 className='news-item item-1'>Hydrogen VS Electic Cars</h3>
             <p className='news-description'>Will hydrogen-fueled cars ever catch up to EVs?</p>
             <hr/>
-            <h3 className='news-item'>The Downsides of AI Artistry</h3>
+            <h3 className='news-item item-2'>The Downsides of AI Artistry</h3>
             <p className='news-description'>What are the possible adverse effects of on-demand AI image generation?</p>
             <hr/>
-            <h3 className='news-item'>Is VC Funding Drying Up?</h3>
+            <h3 className='news-item item-3'>Is VC Funding Drying Up?</h3>
             <p className='news-description last'>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
             </div>
             

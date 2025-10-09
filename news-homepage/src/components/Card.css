@@ -1,0 +1,38 @@
+.card{
+    margin-top: 50px;
+    display: flex;
+    height: 120px;
+    width: 350px;
+    gap: 20px;
+}
+.card-image img{
+    height: 100%;
+}
+.card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-description{
+    line-height: 25px;
+    font-size: 13px;
+    font-weight: 350;
+    color: hsl(0, 0%, 62%);
+}
+.card-number{
+    color: hsl(5, 85%, 63%);
+    font-size: 22px;
+}
+.card-title{
+    color: hsl(240, 100%, 5%);
+    font-size: 16px;
+}
+
+@media (max-width:1000px){
+    .card{
+       width: 100%;
+       
+    }
+    
+    
+}

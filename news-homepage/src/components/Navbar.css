@@ -1,10 +1,12 @@
 .navbar{
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     justify-self: center;
     padding-top: 80px;
     width: 80%;
+    
     
 }
 .item{
@@ -22,6 +24,9 @@
 .logo{
     width: 45px;
     height: 28px;
+}
+.item-1:hover,.item-2:hover,.item-3:hover,.item-4:hover,.item-5:hover{
+    color: hsl(35, 77%, 62%) ;
 }
 
 @media (max-width:1000px){
